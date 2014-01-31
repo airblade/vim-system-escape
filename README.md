@@ -47,7 +47,7 @@ For example, when I run `:echo system('ls')` using Vim 7.4.052 with Bash on OS X
 /bin/bash -c "(ls) >some_tmp_file 2>&1"
 ```
 
-You can see everything after `shellcmdflag` by setting Vim's verbosity: `set verbose=4`.
+You can see everything after `shellcmdflag` by setting Vim's verbosity to anything greater than 3: `set verbose=4`.
 
 Here are the relevant options, as of 7818ca6de3d0 (11 December 2013):
 
